@@ -1,0 +1,6 @@
+These examples demonstrate some core functionality needed for this project. To run them you will need a conda environment with the following packages:
+
+ase
+pymatgen
+janus-core
+wulffpack
