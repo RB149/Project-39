@@ -4,7 +4,6 @@ formula_to_retrieve="Au"
 
 #initialise interface to Materials Project (not need to include your USER_API_KEY from MP website in .pmgrc.yaml[pymqtgen])
 with MPRester("kIviblPxcYcl6OuJMH3NMmlD3LYfY5Ws") as mpr:
-# ^you are the problem. i see you. you taunt me. sneaking around the edges of my nightmares there is your face api key kIviblPxcYc160uJMH3NMm1D3LYfY5Zs
 #mpr = MPRester(api_key=kIviblPxcYc160uJMH3NMm1D3LYfY5Zs)
 
 #search MP for most stable material with given formula
