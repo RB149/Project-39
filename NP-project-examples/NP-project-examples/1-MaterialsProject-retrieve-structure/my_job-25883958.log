@@ -1,0 +1,20 @@
+python: can't open file '/mnt/scratch/users/qtl506/Project-39/NP-project-examples/NP-project-examples/1-MaterialsProject-retrieve-structure/some_serial_script.py': [Errno 2] No such file or directory
+
+============================
+ Job utilisation efficiency
+============================
+
+Job ID: 25883958
+Cluster: viking2.yor.alces.network
+User/Group: qtl506/clusterusers
+State: FAILED (exit code 2)
+Cores: 1
+CPU Utilized: 00:00:01
+CPU Efficiency: 50.00% of 00:00:02 core-walltime
+Job Wall-clock time: 00:00:02
+Memory Utilized: 3.60 MB
+Memory Efficiency: 0.35% of 1.00 GB
+ Requested wall clock time: 00:05:00
+    Actual wall clock time: 00:00:02
+Wall clock time efficiency: 0.7%
+           Job queued time: 00:00:01
