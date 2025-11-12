@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "/mnt/scratch/users/qtl506/Project-39/NP-project-examples/NP-project-examples/2-ASE-bulk-crystal-structure-optimisation/EMT/bulk-opt.py", line 1, in <module>
+    from ase.calculators.emt import EMT
+ModuleNotFoundError: No module named 'ase'
+
+============================
+ Job utilisation efficiency
+============================
+
+Job ID: 25925341
+Cluster: viking2.yor.alces.network
+User/Group: qtl506/clusterusers
+State: FAILED (exit code 1)
+Cores: 1
+CPU Utilized: 00:00:01
+CPU Efficiency: 4.00% of 00:00:25 core-walltime
+Job Wall-clock time: 00:00:25
+Memory Utilized: 3.60 MB
+Memory Efficiency: 0.35% of 1.00 GB
+ Requested wall clock time: 00:05:00
+    Actual wall clock time: 00:00:25
+Wall clock time efficiency: 8.3%
+           Job queued time: 00:00:22

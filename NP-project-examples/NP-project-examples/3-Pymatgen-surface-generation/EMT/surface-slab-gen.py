@@ -5,7 +5,7 @@ from pymatgen.core import Structure
 bulk = Structure.from_file(filename="./opt.vasp")
 sga = SpacegroupAnalyzer(bulk)
 conventional = sga.get_conventional_standard_structure()
-#print(conventional)
+print(conventional)
 
 #generate specific slab orientation
 #arguments: bulk structure, Miller indices, slab thickness in A, vacuum gap in A
