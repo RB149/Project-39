@@ -1,0 +1,31 @@
+Traceback (most recent call last):
+  File "/mnt/scratch/users/qtl506/Project-39/NP-project-examples/NP-project-examples/1-MaterialsProject-retrieve-structure/get-structure.py", line 1, in <module>
+    from mp_api.client import MPRester
+  File "/users/qtl506/.local/lib/python3.11/site-packages/mp_api/client/__init__.py", line 7, in <module>
+    from .core import MPRestError
+  File "/users/qtl506/.local/lib/python3.11/site-packages/mp_api/client/core/__init__.py", line 3, in <module>
+    from .client import BaseRester, MPRestError, MPRestWarning
+  File "/users/qtl506/.local/lib/python3.11/site-packages/mp_api/client/core/client.py", line 31, in <module>
+    import requests
+  File "/users/qtl506/.local/lib/python3.11/site-packages/requests/__init__.py", line 43, in <module>
+    import urllib3
+ModuleNotFoundError: No module named 'urllib3'
+
+============================
+ Job utilisation efficiency
+============================
+
+Job ID: 25923338
+Cluster: viking2.yor.alces.network
+User/Group: qtl506/clusterusers
+State: FAILED (exit code 1)
+Cores: 1
+CPU Utilized: 00:00:01
+CPU Efficiency: 3.57% of 00:00:28 core-walltime
+Job Wall-clock time: 00:00:28
+Memory Utilized: 3.59 MB
+Memory Efficiency: 0.35% of 1.00 GB
+ Requested wall clock time: 00:05:00
+    Actual wall clock time: 00:00:28
+Wall clock time efficiency: 9.3%
+           Job queued time: 00:00:13

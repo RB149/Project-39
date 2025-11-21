@@ -1,0 +1,28 @@
+/mnt/scratch/users/qtl506/Project-39/NP-project-examples/NP-project-examples/2-ASE-bulk-crystal-structure-optimisation/EMT/bulk-opt.py:10: FutureWarning: Import ExpCellFilter from ase.filters
+  cell = ExpCellFilter(struct)
+      Step     Time          Energy          fmax
+BFGS:    0 12:13:57        0.057896        1.316510
+BFGS:    1 12:13:57        0.006266        0.466936
+BFGS:    2 12:13:57        0.000072        0.087053
+BFGS:    3 12:13:57       -0.000135        0.004424
+BFGS:    4 12:13:57       -0.000135        0.000040
+Optimized energy (eV): -0.00013514120506474825
+
+============================
+ Job utilisation efficiency
+============================
+
+Job ID: 26153242
+Cluster: viking2.yor.alces.network
+User/Group: qtl506/clusterusers
+State: COMPLETED (exit code 0)
+Cores: 1
+CPU Utilized: 00:00:02
+CPU Efficiency: 2.67% of 00:01:15 core-walltime
+Job Wall-clock time: 00:01:15
+Memory Utilized: 44.66 MB
+Memory Efficiency: 4.36% of 1.00 GB
+ Requested wall clock time: 00:05:00
+    Actual wall clock time: 00:01:15
+Wall clock time efficiency: 25.0%
+           Job queued time: 00:00:09

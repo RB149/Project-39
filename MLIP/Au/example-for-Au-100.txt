@@ -1,0 +1,29 @@
+EMT:
+----
+Bulk energy:  -0.00013514120506474825
+Num atoms: 1
+E_bulk/atom =  -0.00013514120506474825
+
+Surf energy: 0.6137955554535255
+Num atoms: 6
+A = 2.8681442675875299*2.8681442675875299 = 8.22625153969520831809 
+
+gamma = [ Esurf - N_surf*E_bulk/atom ] /[2*A]
+gamma = 0.03735640709004418759 eV / A^2
+gamma = 0.599 J/m^2 (conv factor is 10e = 16.021766)
+
+
+MLIP:
+-----
+Bulk energy: -3.275815674608511 
+Num atoms: 1
+E_bulk/atom = -3.275815674608511 
+
+Surf energy: -18.79557884279919
+Num atoms: 6
+A = 2.8435146000843132*2.8435146000844114=8.08557528089293086348 
+
+gamma = [ Esurf - N_surf*E_bulk/atom ] /[2*A]
+gamma = 0.05313877955490246127 eV / A^2
+gamma = 0.851 J/m^2 (conv factor is 10e = 16.021766)
+
