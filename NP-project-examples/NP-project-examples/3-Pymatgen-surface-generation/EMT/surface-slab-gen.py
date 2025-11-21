@@ -16,7 +16,7 @@ print(conventional)
 
 #generate slabs for different orientations
 #arguments: bulk structure, max Miller index, slab thickness in A, vacuum gap in A 
-all_slabs = generate_all_slabs(conventional, 1, 10, 10)
+all_slabs = generate_all_slabs(conventional, 1, 25, 10)
 for slab in all_slabs:
   filename="slab-{0}.vasp".format(slab.miller_index)
   slab = slab.get_orthogonal_c_slab().get_sorted_structure()

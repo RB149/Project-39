@@ -5,7 +5,7 @@ from ase.io import read, write
 
 
 
-struct = read("./structure.vasp")
+struct = read("./structureAg.vasp")
 struct.calc=EMT()
 cell = ExpCellFilter(struct)
 geom_opt = BFGS(cell)
