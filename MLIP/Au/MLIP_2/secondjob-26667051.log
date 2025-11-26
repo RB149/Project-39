@@ -1,0 +1,36 @@
+Traceback (most recent call last):
+  File "/mnt/scratch/users/qtl506/Project-39/MLIP/Au/MLIP_2/bulk-opt.py", line 6, in <module>
+    geom_opt = GeomOpt(
+               ^^^^^^^^
+  File "/users/qtl506/scratch/python_environments/envs/project/lib/python3.11/site-packages/janus_core/calculations/geom_opt.py", line 225, in __init__
+    super().__init__(
+  File "/users/qtl506/scratch/python_environments/envs/project/lib/python3.11/site-packages/janus_core/calculations/base.py", line 188, in __init__
+    self.struct, self.struct_path = input_structs(
+                                    ^^^^^^^^^^^^^^
+  File "/users/qtl506/scratch/python_environments/envs/project/lib/python3.11/site-packages/janus_core/helpers/struct_io.py", line 221, in input_structs
+    attach_calculator(
+  File "/users/qtl506/scratch/python_environments/envs/project/lib/python3.11/site-packages/janus_core/helpers/struct_io.py", line 98, in attach_calculator
+    calculator = choose_calculator(
+                 ^^^^^^^^^^^^^^^^^^
+  File "/users/qtl506/scratch/python_environments/envs/project/lib/python3.11/site-packages/janus_core/helpers/mlip_calculators.py", line 201, in choose_calculator
+    from mace import __version__
+ModuleNotFoundError: No module named 'mace'
+
+============================
+ Job utilisation efficiency
+============================
+
+Job ID: 26667051
+Cluster: viking2.yor.alces.network
+User/Group: qtl506/clusterusers
+State: FAILED (exit code 1)
+Cores: 1
+CPU Utilized: 00:00:05
+CPU Efficiency: 33.33% of 00:00:15 core-walltime
+Job Wall-clock time: 00:00:15
+Memory Utilized: 3.60 MB
+Memory Efficiency: 0.35% of 1.00 GB
+ Requested wall clock time: 00:05:00
+    Actual wall clock time: 00:00:15
+Wall clock time efficiency: 5.0%
+           Job queued time: 00:00:16

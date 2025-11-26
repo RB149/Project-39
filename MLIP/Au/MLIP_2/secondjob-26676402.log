@@ -1,0 +1,22 @@
+/users/qtl506/scratch/python_environments/envs/project/lib/python3.11/site-packages/e3nn/o3/_wigner.py:10: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  _Jd, _W3j_flat, _W3j_indices = torch.load(os.path.join(os.path.dirname(__file__), 'constants.pt'))
+[2025-11-21T12:37:42.006] error: *** JOB 26676402 ON node087 CANCELLED AT 2025-11-21T12:37:42 DUE TO TIME LIMIT ***
+
+============================
+ Job utilisation efficiency
+============================
+
+Job ID: 26676402
+Cluster: viking2.yor.alces.network
+User/Group: qtl506/clusterusers
+State: TIMEOUT (exit code 0)
+Cores: 1
+CPU Utilized: 00:00:02
+CPU Efficiency: 0.62% of 00:05:25 core-walltime
+Job Wall-clock time: 00:05:25
+Memory Utilized: 520.72 MB
+Memory Efficiency: 50.85% of 1.00 GB
+ Requested wall clock time: 00:05:00
+    Actual wall clock time: 00:05:25
+Wall clock time efficiency: 108.3%
+           Job queued time: 00:00:05

@@ -1,0 +1,33 @@
+/users/qtl506/scratch/python_environments/envs/project2/lib/python3.11/site-packages/e3nn/o3/_wigner.py:10: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  _Jd, _W3j_flat, _W3j_indices = torch.load(os.path.join(os.path.dirname(__file__), 'constants.pt'))
+/users/qtl506/scratch/python_environments/envs/project2/lib/python3.11/site-packages/mace/calculators/mace.py:197: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  torch.load(f=model_path, map_location=device)
+/users/qtl506/scratch/python_environments/envs/project2/lib/python3.11/site-packages/janus_core/calculations/geom_opt.py:225: FutureWarning: `model_path` has been deprecated. Please use `model`.
+  super().__init__(
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+Using float64 for MACECalculator, which is slower but more accurate. Recommended for geometry optimization.
+Using head Default out of ['Default']
+       Step     Time          Energy          fmax
+LBFGS:    0 03:04:14       -3.246168        0.057062
+LBFGS:    1 03:04:15       -3.246261        0.019484
+LBFGS:    2 03:04:15       -3.246274        0.000124
+Optimized energy (eV): -3.2462737078237964
+
+============================
+ Job utilisation efficiency
+============================
+
+Job ID: 27024109
+Cluster: viking2.yor.alces.network
+User/Group: qtl506/clusterusers
+State: COMPLETED (exit code 0)
+Cores: 1
+CPU Utilized: 00:00:11
+CPU Efficiency: 17.19% of 00:01:04 core-walltime
+Job Wall-clock time: 00:01:04
+Memory Utilized: 618.12 MB
+Memory Efficiency: 60.36% of 1.00 GB
+ Requested wall clock time: 00:05:00
+    Actual wall clock time: 00:01:04
+Wall clock time efficiency: 21.3%
+           Job queued time: 00:00:07

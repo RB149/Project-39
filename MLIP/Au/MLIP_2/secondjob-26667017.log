@@ -1,0 +1,33 @@
+Traceback (most recent call last):
+  File "/mnt/scratch/users/qtl506/Project-39/MLIP/Au/MLIP_2/bulk-opt.py", line 4, in <module>
+    struct = read("./structure.vasp")
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/qtl506/.local/lib/python3.11/site-packages/ase/io/formats.py", line 787, in read
+    format = format or filetype(filename, read=isinstance(filename, str))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/qtl506/.local/lib/python3.11/site-packages/ase/io/formats.py", line 962, in filetype
+    fd = open_with_compression(filename, 'rb')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/qtl506/.local/lib/python3.11/site-packages/ase/io/formats.py", line 591, in open_with_compression
+    return open(filename, mode)
+           ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './structure.vasp'
+
+============================
+ Job utilisation efficiency
+============================
+
+Job ID: 26667017
+Cluster: viking2.yor.alces.network
+User/Group: qtl506/clusterusers
+State: FAILED (exit code 1)
+Cores: 1
+CPU Utilized: 00:00:06
+CPU Efficiency: 6.90% of 00:01:27 core-walltime
+Job Wall-clock time: 00:01:27
+Memory Utilized: 461.88 MB
+Memory Efficiency: 45.11% of 1.00 GB
+ Requested wall clock time: 00:05:00
+    Actual wall clock time: 00:01:27
+Wall clock time efficiency: 29.0%
+           Job queued time: 00:00:14

@@ -5,7 +5,7 @@ struct = read("./structure.vasp")
 
 geom_opt = GeomOpt(
     arch="mace_mp",
-    model_path="./mace-mpa-0-medium.model",
+    model_path="/users/qtl506/scratch/Project-39/MLIP/mace_models/2023-12-03-mace-128-L1_epoch-199.model",
     struct=struct,
     fmax=0.001,
 )
