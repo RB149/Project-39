@@ -1,0 +1,19 @@
+
+============================
+ Job utilisation efficiency
+============================
+
+Job ID: 27575195
+Cluster: viking2.yor.alces.network
+User/Group: qtl506/clusterusers
+State: COMPLETED (exit code 0)
+Cores: 1
+CPU Utilized: 00:00:04
+CPU Efficiency: 3.77% of 00:01:46 core-walltime
+Job Wall-clock time: 00:01:46
+Memory Utilized: 150.86 MB
+Memory Efficiency: 14.73% of 1.00 GB
+ Requested wall clock time: 00:05:00
+    Actual wall clock time: 00:01:46
+Wall clock time efficiency: 35.3%
+           Job queued time: 00:00:02
