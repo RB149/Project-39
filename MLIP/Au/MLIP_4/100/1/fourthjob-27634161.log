@@ -1,0 +1,40 @@
+/users/qtl506/scratch/python_environments/envs/project2/lib/python3.11/site-packages/e3nn/o3/_wigner.py:10: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  _Jd, _W3j_flat, _W3j_indices = torch.load(os.path.join(os.path.dirname(__file__), 'constants.pt'))
+/users/qtl506/scratch/python_environments/envs/project2/lib/python3.11/site-packages/mace/calculators/mace.py:197: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  torch.load(f=model_path, map_location=device)
+/users/qtl506/scratch/python_environments/envs/project2/lib/python3.11/site-packages/janus_core/calculations/geom_opt.py:225: FutureWarning: `model_path` has been deprecated. Please use `model`.
+  super().__init__(
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+Using float64 for MACECalculator, which is slower but more accurate. Recommended for geometry optimization.
+Using head Default out of ['Default']
+       Step     Time          Energy          fmax
+LBFGS:    0 02:57:00       -5.561339        0.691655
+LBFGS:    1 02:57:01       -5.571509        0.680350
+LBFGS:    2 02:57:01       -5.719588        0.235601
+LBFGS:    3 02:57:01       -5.726357        0.170265
+LBFGS:    4 02:57:01       -5.731472        0.022224
+LBFGS:    5 02:57:01       -5.731520        0.020083
+LBFGS:    6 02:57:01       -5.731534        0.017460
+LBFGS:    7 02:57:01       -5.731568        0.007586
+LBFGS:    8 02:57:01       -5.731581        0.003598
+LBFGS:    9 02:57:01       -5.731583        0.000731
+Optimized energy (eV): -5.731583372227775
+
+============================
+ Job utilisation efficiency
+============================
+
+Job ID: 27634161
+Cluster: viking2.yor.alces.network
+User/Group: qtl506/clusterusers
+State: COMPLETED (exit code 0)
+Cores: 1
+CPU Utilized: 00:00:11
+CPU Efficiency: 7.05% of 00:02:36 core-walltime
+Job Wall-clock time: 00:02:36
+Memory Utilized: 723.63 MB
+Memory Efficiency: 70.67% of 1.00 GB
+ Requested wall clock time: 00:05:00
+    Actual wall clock time: 00:02:36
+Wall clock time efficiency: 52.0%
+           Job queued time: 00:00:00

@@ -6,8 +6,8 @@ mkdir $d_name
 cp /users/qtl506/scratch/Project-39/MLIP/Au/MLIP_3/$d_name/'slab-(1, 0, 0).vasp' /users/qtl506/scratch/Project-39/MLIP/Au/MLIP_4/100 
 sbatch 4.job
 
-mv fourth* /users/qtl506/scratch/Project-39/MLIP/Au/MLIP_4/100/$d_name
-mv 'slab-(1, 0, 0).vasp' /users/qtl506/scratch/Project-39/MLIP/Au/MLIP_4/100/$d_name
+#mv fourth* /users/qtl506/scratch/Project-39/MLIP/Au/MLIP_4/100/$d_name
+#mv 'slab-(1, 0, 0).vasp' /users/qtl506/scratch/Project-39/MLIP/Au/MLIP_4/100/$d_name
 
 
 # copying 
