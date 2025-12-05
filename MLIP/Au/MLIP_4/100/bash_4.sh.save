@@ -1,0 +1,7 @@
+#!/bin/bash
+# asking for directory to be copied
+read -p "Directory name: " d_name
+mkdir $d_name
+
+# cp /users/qtl506/scratch/Project-39/MLIP/Au/MLIP_3/1 /users/qtl506/scratch/Project-39/MLIP/Au/MLIP_4/100  -r
+
