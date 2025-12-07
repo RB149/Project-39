@@ -1,0 +1,20 @@
+[2025-12-05T07:40:34.007] error: *** JOB 27636878 ON node007 CANCELLED AT 2025-12-05T07:40:34 DUE TO TIME LIMIT ***
+
+============================
+ Job utilisation efficiency
+============================
+
+Job ID: 27636878
+Cluster: viking2.yor.alces.network
+User/Group: qtl506/clusterusers
+State: TIMEOUT (exit code 0)
+Cores: 1
+CPU Utilized: 00:00:03
+CPU Efficiency: 0.96% of 00:05:11 core-walltime
+Job Wall-clock time: 00:05:11
+Memory Utilized: 393.38 MB
+Memory Efficiency: 38.42% of 1.00 GB
+ Requested wall clock time: 00:05:00
+    Actual wall clock time: 00:05:11
+Wall clock time efficiency: 103.7%
+           Job queued time: 00:00:01

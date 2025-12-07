@@ -1,0 +1,27 @@
+/users/qtl506/scratch/python_environments/envs/project2/lib/python3.11/site-packages/e3nn/o3/_wigner.py:10: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  _Jd, _W3j_flat, _W3j_indices = torch.load(os.path.join(os.path.dirname(__file__), 'constants.pt'))
+/users/qtl506/scratch/python_environments/envs/project2/lib/python3.11/site-packages/mace/calculators/mace.py:197: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  torch.load(f=model_path, map_location=device)
+/users/qtl506/scratch/python_environments/envs/project2/lib/python3.11/site-packages/janus_core/calculations/geom_opt.py:225: FutureWarning: `model_path` has been deprecated. Please use `model`.
+  super().__init__(
+/var/spool/slurmd.spool/job27636685/slurm_script: line 23: 3951363 Killed                  python slab-opt.py
+[2025-12-05T04:01:04.378] error: Detected 1 oom_kill event in StepId=27636685.batch. Some of the step tasks have been OOM Killed.
+
+============================
+ Job utilisation efficiency
+============================
+
+Job ID: 27636685
+Cluster: viking2.yor.alces.network
+User/Group: qtl506/clusterusers
+State: OUT_OF_MEMORY (exit code 0)
+Cores: 1
+CPU Utilized: 00:00:11
+CPU Efficiency: 5.79% of 00:03:10 core-walltime
+Job Wall-clock time: 00:03:10
+Memory Utilized: 593.73 MB
+Memory Efficiency: 57.98% of 1.00 GB
+ Requested wall clock time: 00:05:00
+    Actual wall clock time: 00:03:10
+Wall clock time efficiency: 63.3%
+           Job queued time: 00:00:17

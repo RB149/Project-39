@@ -1,0 +1,69 @@
+/users/qtl506/scratch/python_environments/envs/project2/lib/python3.11/site-packages/e3nn/o3/_wigner.py:10: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  _Jd, _W3j_flat, _W3j_indices = torch.load(os.path.join(os.path.dirname(__file__), 'constants.pt'))
+/users/qtl506/scratch/python_environments/envs/project2/lib/python3.11/site-packages/mace/calculators/mace.py:197: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  torch.load(f=model_path, map_location=device)
+/users/qtl506/scratch/python_environments/envs/project2/lib/python3.11/site-packages/janus_core/calculations/geom_opt.py:225: FutureWarning: `model_path` has been deprecated. Please use `model`.
+  super().__init__(
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+Using float64 for MACECalculator, which is slower but more accurate. Recommended for geometry optimization.
+Using head Default out of ['Default']
+       Step     Time          Energy          fmax
+LBFGS:    0 03:26:42      -44.511384        0.096087
+LBFGS:    1 03:26:43      -44.511682        0.095808
+LBFGS:    2 03:26:43      -44.515958        0.112674
+LBFGS:    3 03:26:44      -44.516792        0.125296
+LBFGS:    4 03:26:44      -44.524862        0.186811
+LBFGS:    5 03:26:45      -44.531869        0.174710
+LBFGS:    6 03:26:45      -44.537761        0.126574
+LBFGS:    7 03:26:45      -44.539893        0.089607
+LBFGS:    8 03:26:46      -44.540598        0.063447
+LBFGS:    9 03:26:46      -44.541250        0.062469
+LBFGS:   10 03:26:46      -44.542301        0.064335
+LBFGS:   11 03:26:47      -44.543085        0.058301
+LBFGS:   12 03:26:47      -44.543521        0.058955
+LBFGS:   13 03:26:47      -44.543824        0.057857
+LBFGS:   14 03:26:48      -44.544302        0.044753
+LBFGS:   15 03:26:48      -44.544850        0.044490
+LBFGS:   16 03:26:49      -44.545211        0.031825
+LBFGS:   17 03:26:49      -44.545331        0.023352
+LBFGS:   18 03:26:49      -44.545387        0.018025
+LBFGS:   19 03:26:50      -44.545462        0.017843
+LBFGS:   20 03:26:50      -44.545543        0.015947
+LBFGS:   21 03:26:50      -44.545593        0.011656
+LBFGS:   22 03:26:51      -44.545615        0.012512
+LBFGS:   23 03:26:51      -44.545632        0.011211
+LBFGS:   24 03:26:51      -44.545661        0.010913
+LBFGS:   25 03:26:52      -44.545704        0.012090
+LBFGS:   26 03:26:52      -44.545750        0.018569
+LBFGS:   27 03:26:52      -44.545787        0.022664
+LBFGS:   28 03:26:53      -44.545824        0.023072
+LBFGS:   29 03:26:53      -44.545884        0.020733
+LBFGS:   30 03:26:54      -44.545981        0.019620
+LBFGS:   31 03:26:54      -44.546101        0.025981
+LBFGS:   32 03:26:54      -44.546201        0.034563
+LBFGS:   33 03:26:55      -44.546272        0.034094
+LBFGS:   34 03:26:55      -44.546343        0.026926
+LBFGS:   35 03:26:55      -44.546424        0.013636
+LBFGS:   36 03:26:56      -44.546479        0.007717
+LBFGS:   37 03:26:56      -44.546495        0.002244
+LBFGS:   38 03:26:56      -44.546497        0.000511
+Optimized energy (eV): -44.546496882317626
+
+============================
+ Job utilisation efficiency
+============================
+
+Job ID: 27636083
+Cluster: viking2.yor.alces.network
+User/Group: qtl506/clusterusers
+State: COMPLETED (exit code 0)
+Cores: 1
+CPU Utilized: 00:00:24
+CPU Efficiency: 13.26% of 00:03:01 core-walltime
+Job Wall-clock time: 00:03:01
+Memory Utilized: 824.24 MB
+Memory Efficiency: 80.49% of 1.00 GB
+ Requested wall clock time: 00:05:00
+    Actual wall clock time: 00:03:01
+Wall clock time efficiency: 60.3%
+           Job queued time: 00:00:00

@@ -1,0 +1,95 @@
+/users/qtl506/scratch/python_environments/envs/project2/lib/python3.11/site-packages/e3nn/o3/_wigner.py:10: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  _Jd, _W3j_flat, _W3j_indices = torch.load(os.path.join(os.path.dirname(__file__), 'constants.pt'))
+/users/qtl506/scratch/python_environments/envs/project2/lib/python3.11/site-packages/mace/calculators/mace.py:197: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  torch.load(f=model_path, map_location=device)
+/users/qtl506/scratch/python_environments/envs/project2/lib/python3.11/site-packages/janus_core/calculations/geom_opt.py:225: FutureWarning: `model_path` has been deprecated. Please use `model`.
+  super().__init__(
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+Using float64 for MACECalculator, which is slower but more accurate. Recommended for geometry optimization.
+Using head Default out of ['Default']
+       Step     Time          Energy          fmax
+LBFGS:    0 03:39:36      -83.461956        0.051739
+LBFGS:    1 03:39:38      -83.462114        0.051648
+LBFGS:    2 03:39:38      -83.463280        0.055128
+LBFGS:    3 03:39:39      -83.463464        0.061050
+LBFGS:    4 03:39:40      -83.465882        0.105721
+LBFGS:    5 03:39:41      -83.468438        0.115760
+LBFGS:    6 03:39:41      -83.471369        0.097659
+LBFGS:    7 03:39:42      -83.472887        0.084126
+LBFGS:    8 03:39:43      -83.473684        0.064251
+LBFGS:    9 03:39:44      -83.474345        0.068910
+LBFGS:   10 03:39:44      -83.475359        0.068006
+LBFGS:   11 03:39:45      -83.476404        0.071901
+LBFGS:   12 03:39:46      -83.477141        0.070345
+LBFGS:   13 03:39:46      -83.477626        0.075627
+LBFGS:   14 03:39:47      -83.478273        0.068681
+LBFGS:   15 03:39:48      -83.479270        0.065906
+LBFGS:   16 03:39:49      -83.480304        0.059305
+LBFGS:   17 03:39:49      -83.480891        0.040451
+LBFGS:   18 03:39:50      -83.481135        0.034925
+LBFGS:   19 03:39:51      -83.481364        0.030839
+LBFGS:   20 03:39:51      -83.481727        0.032151
+LBFGS:   21 03:39:52      -83.482125        0.027174
+LBFGS:   22 03:39:53      -83.482402        0.032719
+LBFGS:   23 03:39:54      -83.482560        0.032671
+LBFGS:   24 03:39:54      -83.482718        0.027064
+LBFGS:   25 03:39:55      -83.482958        0.026910
+LBFGS:   26 03:39:56      -83.483222        0.023024
+LBFGS:   27 03:39:56      -83.483394        0.026304
+LBFGS:   28 03:39:57      -83.483476        0.026174
+LBFGS:   29 03:39:58      -83.483547        0.021544
+LBFGS:   30 03:39:59      -83.483661        0.018167
+LBFGS:   31 03:39:59      -83.483797        0.018259
+LBFGS:   32 03:40:00      -83.483899        0.021963
+LBFGS:   33 03:40:01      -83.483952        0.022026
+LBFGS:   34 03:40:01      -83.483994        0.018147
+LBFGS:   35 03:40:02      -83.484055        0.010139
+LBFGS:   36 03:40:03      -83.484121        0.010239
+LBFGS:   37 03:40:04      -83.484161        0.011853
+LBFGS:   38 03:40:04      -83.484177        0.011174
+LBFGS:   39 03:40:05      -83.484187        0.008838
+LBFGS:   40 03:40:06      -83.484201        0.004437
+LBFGS:   41 03:40:06      -83.484213        0.003416
+LBFGS:   42 03:40:07      -83.484218        0.003877
+LBFGS:   43 03:40:08      -83.484220        0.003395
+LBFGS:   44 03:40:09      -83.484221        0.002530
+LBFGS:   45 03:40:09      -83.484222        0.002074
+LBFGS:   46 03:40:10      -83.484224        0.001583
+LBFGS:   47 03:40:11      -83.484224        0.001236
+LBFGS:   48 03:40:11      -83.484224        0.001232
+LBFGS:   49 03:40:12      -83.484225        0.001028
+LBFGS:   50 03:40:13      -83.484225        0.001220
+LBFGS:   51 03:40:14      -83.484226        0.001494
+LBFGS:   52 03:40:14      -83.484227        0.002664
+LBFGS:   53 03:40:15      -83.484228        0.003380
+LBFGS:   54 03:40:16      -83.484229        0.003683
+LBFGS:   55 03:40:16      -83.484232        0.003594
+LBFGS:   56 03:40:17      -83.484236        0.003451
+LBFGS:   57 03:40:18      -83.484243        0.003973
+LBFGS:   58 03:40:18      -83.484251        0.005195
+LBFGS:   59 03:40:19      -83.484257        0.006013
+LBFGS:   60 03:40:20      -83.484261        0.005364
+LBFGS:   61 03:40:21      -83.484266        0.003575
+LBFGS:   62 03:40:21      -83.484271        0.002269
+LBFGS:   63 03:40:22      -83.484273        0.001022
+LBFGS:   64 03:40:23      -83.484273        0.000437
+Optimized energy (eV): -83.48427305546045
+
+============================
+ Job utilisation efficiency
+============================
+
+Job ID: 27636592
+Cluster: viking2.yor.alces.network
+User/Group: qtl506/clusterusers
+State: COMPLETED (exit code 0)
+Cores: 1
+CPU Utilized: 00:00:58
+CPU Efficiency: 23.20% of 00:04:10 core-walltime
+Job Wall-clock time: 00:04:10
+Memory Utilized: 871.72 MB
+Memory Efficiency: 85.13% of 1.00 GB
+ Requested wall clock time: 00:05:00
+    Actual wall clock time: 00:04:10
+Wall clock time efficiency: 83.3%
+           Job queued time: 00:00:18
