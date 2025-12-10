@@ -1,0 +1,78 @@
+Traceback (most recent call last):
+  File "/mnt/scratch/users/qtl506/Zot-P-39/Project-39/MLIP/Cu/1-MaterialsProject-retrieve-structure/New_directoy/download-structure.py", line 3, in <module>
+    data = mpr.materials.search(material_ids=["mp-30"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/qtl506/.local/lib/python3.11/site-packages/mp_api/client/routes/materials/materials.py", line 248, in search
+    return super()._search(
+           ^^^^^^^^^^^^^^^^
+  File "/users/qtl506/.local/lib/python3.11/site-packages/mp_api/client/core/client.py", line 1207, in _search
+    return self._get_all_documents(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/qtl506/.local/lib/python3.11/site-packages/mp_api/client/core/client.py", line 1286, in _get_all_documents
+    results = self._query_resource(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/users/qtl506/.local/lib/python3.11/site-packages/mp_api/client/core/client.py", line 564, in _query_resource
+    data = self._submit_requests(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/qtl506/.local/lib/python3.11/site-packages/mp_api/client/core/client.py", line 711, in _submit_requests
+    initial_data_tuples = self._multi_thread(
+                          ^^^^^^^^^^^^^^^^^^^
+  File "/users/qtl506/.local/lib/python3.11/site-packages/mp_api/client/core/client.py", line 933, in _multi_thread
+    data, subtotal = future.result()
+                     ^^^^^^^^^^^^^^^
+  File "/users/qtl506/scratch/python_environments/envs/project2/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/users/qtl506/scratch/python_environments/envs/project2/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/users/qtl506/scratch/python_environments/envs/project2/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/qtl506/.local/lib/python3.11/site-packages/mp_api/client/core/client.py", line 1007, in _submit_request_and_process
+    data["data"] = self._convert_to_model(data["data"])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/qtl506/.local/lib/python3.11/site-packages/mp_api/client/core/client.py", line 1044, in _convert_to_model
+    data_model, set_fields, _ = self._generate_returned_model(data[0])
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/qtl506/.local/lib/python3.11/site-packages/mp_api/client/core/client.py", line 1086, in _generate_returned_model
+    data_model = create_model(  # type: ignore
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/qtl506/.local/lib/python3.11/site-packages/pydantic/main.py", line 1804, in create_model
+    return meta(
+           ^^^^^
+  File "/users/qtl506/.local/lib/python3.11/site-packages/pydantic/_internal/_model_construction.py", line 242, in __new__
+    set_model_fields(cls, config_wrapper=config_wrapper, ns_resolver=ns_resolver)
+  File "/users/qtl506/.local/lib/python3.11/site-packages/pydantic/_internal/_model_construction.py", line 566, in set_model_fields
+    fields, class_vars = collect_model_fields(cls, config_wrapper, ns_resolver, typevars_map=typevars_map)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/qtl506/.local/lib/python3.11/site-packages/pydantic/_internal/_fields.py", line 363, in collect_model_fields
+    field_info = FieldInfo_.from_annotated_attribute(ann_type, assigned_value, _source=AnnotationSource.CLASS)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/qtl506/.local/lib/python3.11/site-packages/pydantic/fields.py", line 468, in from_annotated_attribute
+    field_info = FieldInfo._construct(
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/users/qtl506/.local/lib/python3.11/site-packages/pydantic/fields.py", line 563, in _construct
+    merged_field_info = cls(**merged_kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "/users/qtl506/.local/lib/python3.11/site-packages/pydantic/fields.py", line 252, in __init__
+    raise TypeError('cannot specify both default and default_factory')
+TypeError: cannot specify both default and default_factory
+
+============================
+ Job utilisation efficiency
+============================
+
+Job ID: 27897035
+Cluster: viking2.yor.alces.network
+User/Group: qtl506/clusterusers
+State: FAILED (exit code 1)
+Cores: 1
+CPU Utilized: 00:00:10
+CPU Efficiency: 4.93% of 00:03:23 core-walltime
+Job Wall-clock time: 00:03:23
+Memory Utilized: 276.83 MB
+Memory Efficiency: 27.03% of 1.00 GB
+ Requested wall clock time: 00:05:00
+    Actual wall clock time: 00:03:23
+Wall clock time efficiency: 67.7%
+           Job queued time: 00:00:17

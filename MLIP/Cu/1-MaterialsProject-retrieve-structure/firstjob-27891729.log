@@ -1,0 +1,26 @@
+Retrieving SummaryDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving SummaryDoc documents: 100%|██████████| 1/1 [00:00<00:00, 28532.68it/s]
+Retrieving MaterialsDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving MaterialsDoc documents: 100%|██████████| 1/1 [00:00<00:00, 30174.85it/s]
+Traceback (most recent call last):
+  File "/mnt/scratch/users/qtl506/Zot-P-39/Project-39/MLIP/Cu/1-MaterialsProject-retrieve-structure/get-structure.py", line 21, in <module>
+    structure.get_sorted_structure().to("structure.vasp")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'get_sorted_structure'
+
+============================
+ Job utilisation efficiency
+============================
+
+Job ID: 27891729
+Cluster: viking2.yor.alces.network
+User/Group: qtl506/clusterusers
+State: FAILED (exit code 1)
+Cores: 1
+CPU Utilized: 00:00:09
+CPU Efficiency: 7.03% of 00:02:08 core-walltime
+Job Wall-clock time: 00:02:08
+Memory Utilized: 305.07 MB
+Memory Efficiency: 29.79% of 1.00 GB
+ Requested wall clock time: 00:05:00
+    Actual wall clock time: 00:02:08
+Wall clock time efficiency: 42.7%
+           Job queued time: 00:00:15

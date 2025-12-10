@@ -1,6 +1,6 @@
 from mp_api.client import MPRester
 
-formula_to_retrieve="Au"
+formula_to_retrieve="Cu"
 
 #initialise interface to Materials Project (not need to include your USER_API_KEY from MP website in .pmgrc.yaml[pymqtgen])
 mpr = MPRester()
@@ -17,4 +17,5 @@ stable_mpids = [doc.material_id for doc in docs]
 structure = mpr.get_structure_by_material_id(stable_mpids[0])
 
 #write out structure as poscar (can visualise easily in VESTA https://jp-minerals.org/vesta/en/)
-structure.get_sorted_structure().to("structure.vasp", "poscar")
+#structure.get_sorted_structure().to("structure.vasp", "poscar")
+structure.get_sorted_structure().to("structure.vasp")

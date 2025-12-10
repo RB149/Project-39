@@ -17,7 +17,7 @@ module purge
 # Load modules
 module load Miniconda3/23.5.2-0
 source ~/.bashrc
-conda activate project
+conda activate project2
 
 # Commands to run
-python get-structure.py
+python download-structure.py
