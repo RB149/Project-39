@@ -1,6 +1,6 @@
 from mp_api.client import MPRester
 
-formula_to_retrieve="Cu"
+formula_to_retrieve="Au"
 
 #initialise interface to Materials Project (not need to include your USER_API_KEY from MP website in .pmgrc.yaml[pymqtgen])
 mpr = MPRester()

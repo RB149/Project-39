@@ -1,0 +1,21 @@
+Retrieving SummaryDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving SummaryDoc documents: 100%|██████████| 1/1 [00:00<00:00, 6990.51it/s]
+Retrieving MaterialsDoc documents:   0%|          | 0/1 [00:00<?, ?it/s]Retrieving MaterialsDoc documents: 100%|██████████| 1/1 [00:00<00:00, 30393.51it/s]
+
+============================
+ Job utilisation efficiency
+============================
+
+Job ID: 27806931
+Cluster: viking2.yor.alces.network
+User/Group: qtl506/clusterusers
+State: COMPLETED (exit code 0)
+Cores: 1
+CPU Utilized: 00:00:09
+CPU Efficiency: 14.06% of 00:01:04 core-walltime
+Job Wall-clock time: 00:01:04
+Memory Utilized: 333.36 MB
+Memory Efficiency: 32.55% of 1.00 GB
+ Requested wall clock time: 00:05:00
+    Actual wall clock time: 00:01:04
+Wall clock time efficiency: 21.3%
+           Job queued time: 00:00:15
