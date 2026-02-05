@@ -17,5 +17,5 @@ stable_mpids = [doc.material_id for doc in docs]
 structure = mpr.get_structure_by_material_id(stable_mpids[0])
 
 #write out structure as poscar (can visualise easily in VESTA https://jp-minerals.org/vesta/en/)
-#structure.get_sorted_structure().to("structure.vasp", "poscar")
-structure.get_sorted_structure().to("structure.vasp")
+structure.get_sorted_structure().to("structure.vasp", "poscar")
+#structure.get_sorted_structure().to("structure.vasp")
