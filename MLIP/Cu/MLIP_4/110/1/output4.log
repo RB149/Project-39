@@ -1,0 +1,28 @@
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+Using float64 for MACECalculator, which is slower but more accurate. Recommended for geometry optimization.
+Using head Default out of ['Default']
+       Step     Time          Energy          fmax
+LBFGS:    0 08:08:48       -6.354733        0.916578
+LBFGS:    1 08:08:49       -6.382949        0.886677
+LBFGS:    2 08:08:49       -6.603657        0.296487
+LBFGS:    3 08:08:49       -6.607389        0.182084
+LBFGS:    4 08:08:49       -6.608745        0.203673
+LBFGS:    5 08:08:49       -6.615803        0.283670
+LBFGS:    6 08:08:49       -6.643136        0.616491
+LBFGS:    7 08:08:49       -6.683361        1.043677
+LBFGS:    8 08:08:50       -6.685739        0.967172
+LBFGS:    9 08:08:50       -6.696438        1.008506
+LBFGS:   10 08:08:50       -6.704184        1.190815
+LBFGS:   11 08:08:50       -6.725528        0.970509
+LBFGS:   12 08:08:50       -6.754216        0.907285
+LBFGS:   13 08:08:50       -6.821616        0.402764
+LBFGS:   14 08:08:50       -6.823210        0.396235
+LBFGS:   15 08:08:50       -6.825075        0.370328
+LBFGS:   16 08:08:50       -6.827706        0.350424
+LBFGS:   17 08:08:50       -6.835182        0.342009
+LBFGS:   18 08:08:50       -6.847275        0.327336
+LBFGS:   19 08:08:50       -6.857157        0.199118
+LBFGS:   20 08:08:50       -6.862303        0.090273
+LBFGS:   21 08:08:50       -6.863793        0.007748
+LBFGS:   22 08:08:50       -6.863814        0.000601
+Optimized energy (eV): -6.863813631637257

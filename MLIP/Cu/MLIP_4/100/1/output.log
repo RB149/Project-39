@@ -1,0 +1,23 @@
+/work/km816/conda_envs/NPProject/lib/python3.12/site-packages/e3nn/o3/_wigner.py:10: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  _Jd, _W3j_flat, _W3j_indices = torch.load(os.path.join(os.path.dirname(__file__), 'constants.pt'))
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+Using float64 for MACECalculator, which is slower but more accurate. Recommended for geometry optimization.
+/work/km816/conda_envs/NPProject/lib/python3.12/site-packages/mace/calculators/mace.py:197: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  torch.load(f=model_path, map_location=device)
+Using head Default out of ['Default']
+/work/km816/conda_envs/NPProject/lib/python3.12/site-packages/janus_core/calculations/geom_opt.py:225: FutureWarning: `model_path` has been deprecated. Please use `model`.
+  super().__init__(
+/work/km816/conda_envs/NPProject/lib/python3.12/site-packages/torch/autograd/graph.py:841: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+       Step     Time          Energy          fmax
+LBFGS:    0 07:53:04       -6.924115        0.373643
+LBFGS:    1 07:53:04       -6.930691        0.367212
+LBFGS:    2 07:53:04       -6.974505        0.545063
+LBFGS:    3 07:53:05       -6.986063        0.263717
+LBFGS:    4 07:53:05       -6.989284        0.245203
+LBFGS:    5 07:53:05       -7.000253        0.268743
+LBFGS:    6 07:53:05       -7.007372        0.220089
+LBFGS:    7 07:53:05       -7.011793        0.076388
+LBFGS:    8 07:53:05       -7.012480        0.013615
+LBFGS:    9 07:53:05       -7.012510        0.000487
+Optimized energy (eV): -7.012510149790874

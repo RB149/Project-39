@@ -21,3 +21,4 @@ for slab in all_slabs:
   filename="slab-{0}.vasp".format(slab.miller_index)
   slab = slab.get_orthogonal_c_slab().get_sorted_structure()
   slab.to(filename,"poscar")
+
