@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+#----------------------------- Slurm directives ------------------------------#
+#SBATCH --job-name=thirdjob               # Job name
+#SBATCH --ntasks=1                      # Number of MPI tasks to request
+#SBATCH --cpus-per-task=1               # Number of CPU cores per MPI task
+#SBATCH --mem=1G                        # Total memory to request
+#SBATCH --time=0-00:05:00               # Time limit (DD-HH:MM:SS)
+#SBATCH --account=pet-mkmmg-2018                # Project account to use
+#SBATCH --output=%x-%j.log              # Standard output log
+
+# Abort if any command fails
+set -e
+
+# purge any existing modules
+module purge
+
+# Load modules
+module load Miniconda3/23.5.2-0
+source ~/.bashrc
+conda activate project2
+
+# Commands to run
+python surface-slab-gen.py
