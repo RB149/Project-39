@@ -1,7 +1,7 @@
 from janus_core.calculations.geom_opt import GeomOpt
 from ase.io import read, write
 
-struct = read("./slab-(1, 0, 0).vasp")
+struct = read("./slab-(1, 0, 1).vasp")
 
 geom_opt = GeomOpt(
     arch="mace_mp",

@@ -1,7 +1,11 @@
+import sys
+
 from mp_api.client import MPRester
 #querying user for formula input
-formula = input("Input Element/Alloy abbreviation:")
-formula_to_retrieve="f{formula}"
+formula = print("Input Element/Alloy abbreviation:")
+args = sys.argv
+formula = str(args[1])
+formula_to_retrieve=formula
 
 #initialise interface to Materials Project (not need to include your USER_API_KEY from MP website in .pmgrc.yaml[pymatgen])
 mpr = MPRester()

@@ -1,10 +1,12 @@
 from mp_api.client import MPRester
+#querying user for formula input
+formula = input("Input Element/Alloy abbreviation:")
+formula_to_retrieve="f{formula}"
 
-formula_to_retrieve="Fe"
-
-#initialise interface to Materials Project (not need to include your USER_API_KEY from MP website in .pmgrc.yaml[pymqtgen])
+#initialise interface to Materials Project (not need to include your USER_API_KEY from MP website in .pmgrc.yaml[pymatgen])
 mpr = MPRester()
 #api key kIviblPxcYc160uJMH3NMm1D3LYfY5Zs
+#if .pmgrc.yaml not working:
 #mpr = MPRester(api_key=kIviblPxcYc160uJMH3NMm1D3LYfY5Zs)
 
 #search MP for most stable material with given formula
