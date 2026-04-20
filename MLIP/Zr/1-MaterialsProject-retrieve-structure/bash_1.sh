@@ -1,4 +1,4 @@
 #!/bin/bash
 #running code 
 a="Zr"
-python3 get-structure.py $a
+python3 get-structure.py $a > output1.log

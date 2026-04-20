@@ -2,7 +2,7 @@ import sys
 
 from mp_api.client import MPRester
 #querying user for formula input
-formula = print("Input Element/Alloy abbreviation:")
+formula = print("Input Element/Alloy mp-id:")
 args = sys.argv
 formula = str(args[1])
 formula_to_retrieve=formula
@@ -18,6 +18,9 @@ docs = mpr.materials.summary.search(
         energy_above_hull=(0, 0), formula = formula_to_retrieve, fields=["material_id"]
     )
 stable_mpids = [doc.material_id for doc in docs]
+
+#print mpid
+print (stable_mpids)
 
 #get corresponding structure
 structure = mpr.get_structure_by_material_id(stable_mpids[0])

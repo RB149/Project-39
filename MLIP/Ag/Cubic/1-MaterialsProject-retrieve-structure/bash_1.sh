@@ -1,4 +1,4 @@
 #!/bin/bash
 #running code 
-a="Ag"
+a="Material"
 python3 get-structure.py $a
