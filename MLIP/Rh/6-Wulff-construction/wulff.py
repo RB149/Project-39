@@ -2,7 +2,7 @@ from wulffpack import SingleCrystal
 from ase.io import read, write
 
 prim = read("./opt.vasp")
-surface_energies = {(1, 1, 1): 2.4, (1, 1, 0): 2.0, (1, 0, 0): 2.0}
+surface_energies = {(1, 1, 1): 1.19, (1, 1, 0): 1.4, (1, 0, 0): 1.46}
 particle = SingleCrystal(surface_energies,primitive_structure=prim,natoms=300)
 
 print("area=", particle.area) # finding total area of particle and what fraction belongs to each facet of crystal
